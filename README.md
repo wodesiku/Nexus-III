@@ -96,7 +96,7 @@ CLI报错:
     make -j$(nproc)
     sudo make install
 
-        cd
+    cd
 
 6:不要运行 nexus-network 命令，而是运行 /opt/glibc-2.39/lib/ld-linux-x86-64.so.2 --library-path /opt/glibc-2.39/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu /usr/local/bin/nexus-network,例如：
 
