@@ -1,10 +1,13 @@
 # Nexus-III
 
 网页端检测开关，自动打开脚本：
+
 1:打开浏览器的开发者工具（按 F12）
 2:切换到控制台（Console）
 3:粘贴以下脚本并回车执行
+
 代码：
+
   (function ensureVPNAlwaysOn() {
     const buttonId = 'connect-toggle-button';
   
